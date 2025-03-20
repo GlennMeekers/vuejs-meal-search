@@ -5,20 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000",
+    "css-watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
     "@tailwindcss/vite": "^4.0.14",
+    "axios": "^1.8.4",
     "vue": "^3.5.13",
     "vue-router": "^4.0.13",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
     "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
     "tailwindcss": "^4.0.14",
     "vite": "^6.2.0"
   }
