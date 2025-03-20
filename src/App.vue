@@ -1,7 +1,9 @@
-<template>App.vue</template>
+<template>
+  <div>
+    <router-view />
+  </div>
+</template>
 
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
+<script setup></script>
 
 <style scoped></style>
